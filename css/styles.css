@@ -811,7 +811,7 @@ a {
   height: 100%;
 }
 
-.activity_shadow a {
+.activity_shadow article {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 1em;
@@ -829,7 +829,7 @@ a {
   font-size: 14px;
 }
 
-.activity_two_block a {
+.activity_two_block article {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 1em;
@@ -1050,6 +1050,10 @@ a {
 
   /* Activités Org */
   
+  .activity_items {
+    margin-bottom: 0px;
+  }
+
   .activity_items h3 {
     padding: 0px;
     margin-left: 25px;
