@@ -811,7 +811,7 @@ a {
   height: 100%;
 }
 
-.activity_shadow article {
+.activity_shadow a {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 1em;
@@ -829,7 +829,7 @@ a {
   font-size: 14px;
 }
 
-.activity_two_block article {
+.activity_two_block a {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 1em;
@@ -969,8 +969,7 @@ a {
   
   .activity_items {
     width: 49%;
-    margin-bottom: 15px;
-}
+  }
 }
 
 @media screen and (max-width: 767px){
@@ -1050,10 +1049,6 @@ a {
 
   /* Activités Org */
   
-  .activity_items {
-    margin-bottom: 0px;
-  }
-
   .activity_items h3 {
     padding: 0px;
     margin-left: 25px;
