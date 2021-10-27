@@ -561,7 +561,7 @@ a {
   margin: 0px 25px 0px 0px;
 }
 
-.filtres_all h3 {
+.filtres_all span {
   margin: 0px 15px 0px 15px;
 }
 
@@ -597,6 +597,10 @@ a {
 
 .filtres_all button:hover {
   background-color: #DDEAFE;
+}
+
+.filtres_all button span {
+  font-weight: 900;
 }
 
 .fa-info-circle::before {
